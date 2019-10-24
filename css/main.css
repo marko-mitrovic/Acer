@@ -1,0 +1,339 @@
+@charset "UTF-8";
+
+/*
+Author:
+Marko Mitrović
+https://www.linkedin.com/in/marko-mitrović-119151bb
+*/
+
+@font-face {
+  font-family: 'Xolonium-Regular';
+  src: url(../fonts/Xolonium-Regular.otf);
+}
+
+body {
+  font-family: 'Xolonium-Regular', sans-serif;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+video {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #000;
+  color: #fff;
+}
+
+.col-4 {
+  width: 33%;
+}
+
+.col-4-b {
+  width: 30%;
+}
+
+.group-main {
+  text-align: center;
+  position: relative;
+  bottom: 660px;
+  height: 0;
+}
+
+.group-triple {
+  text-align: center;
+}
+
+.group-a {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.triple {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.triple-b {
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
+}
+
+.title-main {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.subtitle-main {
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.text-a {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 100;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.title-blue {
+  color: #4cacc4;
+  font-size: 26px;
+  font-weight: 100;
+}
+
+.title-a {
+  font-weight: 100;
+  font-size: 34px;
+  margin: 10px 0 23px;
+}
+
+.text-spec {
+  font-size: 46px;
+  margin-bottom: 0;
+}
+
+.text-bold {
+  font-size: 21px;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.light-gray {
+  background-color: #1e1e1e;
+}
+
+.dark-gray {
+  background-color: #141414;
+}
+
+.img1 {
+  margin-top: 40px;
+}
+
+.img2 {
+  margin-top: 60px;
+}
+
+.img3 {
+  margin-top: 50px;
+}
+
+.img4 {
+  margin-top: 30px;
+}
+
+.img5 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.img9 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.img13 {
+  margin-bottom: 70px;
+}
+
+.img17 {
+  margin-bottom: 50px;
+}
+
+.img24 {
+  margin: 35px 0 20px;
+}
+
+.img28 {
+  margin-top: 45px;
+}
+
+.padding-a {
+  margin-bottom: 45px;
+}
+
+.padding-b {
+  margin-top: 45px;
+}
+
+.img18-m,
+.img19-m,
+.img20-m,
+.img21-m,
+.img22-m,
+.img23-m {
+  display: none;
+}
+
+@media screen and (max-width:1009px) {
+
+  .group-main {
+    bottom: 430px;
+  }
+
+}
+
+@media screen and (max-width:799px) {
+
+  .col-4 {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  .title-main {
+    font-size: 31px;
+    font-weight: 100;
+  }
+  
+  .subtitle-main {
+    font-size: 42px;
+    font-weight: 400;
+  }
+
+  .group-main {
+    bottom: 338px;
+  }
+
+  .triple-b {
+    padding: unset;
+  }
+
+}
+
+@media screen and (max-width:576px) {
+
+  .col-4-b {
+    width: 100%;
+  }
+
+  .title-main {
+    font-size: 26px;
+    font-weight: 100;
+  }
+  
+  .subtitle-main {
+    font-size: 37px;
+    font-weight: 400;
+  }
+
+  .text-bold {
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+  .text-small {
+    font-size: 16px;
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+  .img6 {
+    margin-top: 30px;
+  }
+
+  .img7 {
+    margin-top: 8px;
+  }
+
+  .img8 {
+    margin-top: 8px;
+  }
+
+  .img9 {
+    margin-bottom: 30px;
+  }
+
+  .img11 {
+    margin-top: 8px;
+  }
+
+  .img12 {
+    margin-top: 8px;
+  }
+
+  .img18,
+  .img19,
+  .img20,
+  .img21,
+  .img22,
+  .img23 {
+    display: none;
+  }
+
+  .img18-m,
+  .img19-m,
+  .img20-m,
+  .img21-m,
+  .img22-m,
+  .img23-m {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:509px) {
+
+  .group-main {
+    bottom: 238px;
+  }
+
+}
+
+@media screen and (max-width:425px) {
+
+  .title-blue {
+    font-size: 24px;
+  }
+
+  .title-a {
+    font-size: 30px;
+  }
+
+  .text-a {
+    font-size: 16px;
+    margin: 2px 7px 25px;
+  }
+
+  .group-a {
+    margin: 0 7px;
+  }
+
+  .text-spec {
+    font-size: 36px;
+  }
+
+}
+
+@media screen and (max-width:379px) {
+
+  .group-main {
+    bottom: 208px;
+  }
+
+  .title-main {
+    font-size: 34px;
+    font-weight: 100;
+  }
+  
+  .subtitle-main {
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+}
